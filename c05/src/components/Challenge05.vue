@@ -7,7 +7,7 @@ import { ref } from 'vue'
 
 import Web3 from 'web3';
 
-let web3 = new Web3('https://sepolia.infura.io/v3/44b179a14e644182a0cfa54aa4666f05');
+let web3 = new Web3('https://ethereum-sepolia-rpc.publicnode.com');
 
 type DataResult = {
   address: string;
